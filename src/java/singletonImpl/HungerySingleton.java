@@ -1,4 +1,4 @@
-package java.singletonImpl;
+package singletonImpl;
 
 public class HungerySingleton {
 

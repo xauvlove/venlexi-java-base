@@ -1,7 +1,14 @@
-package java.aqsImpl;
+package aqsImpl;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * CountDownLatch 的测试类
+ *
+ * 当 works 全都执行完毕后，才能继续执行主线程
+ *
+ * 会阻塞主线程
+ */
 public class CountDownLatchTest {
 
     public static void main(String[] args) {
@@ -27,5 +34,6 @@ public class CountDownLatchTest {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("main thread running");
     }
 }

@@ -1,4 +1,4 @@
-package java.synchronizedImpl;
+package synchronizedImpl;
 
 public class TicketingRobert {
     public static volatile Integer count = 1000;

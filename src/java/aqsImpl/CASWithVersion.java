@@ -1,9 +1,13 @@
-package java.aqsImpl;
+package aqsImpl;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
-public class CASDemo2 {
+/**
+ * 带版本的CAS
+ * 解决 ABA 问题
+ */
+public class CASWithVersion {
     /**
      * 给出值后，给出版本
      */

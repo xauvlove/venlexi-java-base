@@ -1,4 +1,4 @@
-package java.aqsImpl;
+package aqsImpl;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;

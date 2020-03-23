@@ -1,4 +1,4 @@
-package java.aqsImpl;
+package aqsImpl;
 
 public class TestMyLock2 {
     private int m = 0;

@@ -1,9 +1,12 @@
-package java.aqsImpl;
+package aqsImpl;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class CASDemo {
+/**
+ * 基本的 CAS 问题
+ */
+public class BasicCAS {
 
     private static AtomicInteger atomicInteger =  new AtomicInteger(0);
 

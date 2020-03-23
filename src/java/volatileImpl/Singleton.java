@@ -1,4 +1,4 @@
-package java.volatileImpl;
+package volatileImpl;
 
 public class Singleton {
     private volatile static Singleton instance = null;

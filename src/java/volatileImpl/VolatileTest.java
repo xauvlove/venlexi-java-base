@@ -1,4 +1,4 @@
-package java.volatileImpl;
+package volatileImpl;
 
 import java.util.concurrent.TimeUnit;
 
